@@ -17,7 +17,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Replace with React origin in production
+    allow_origins=["https://resume-analyzer-final-frontend.vercel.app/"],  # Replace with React origin in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -91,5 +91,4 @@ JOB DESCRIPTION:
             ],
             "note": "Fallback response used due to parsing error."
         }
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+
