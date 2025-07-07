@@ -17,7 +17,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://resume-analyzer-final-frontend.vercel.app"],  # Replace with React origin in production
+    allow_origins=["https://resumiq.vercel.app"],  # Replace with React origin in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
