@@ -44,6 +44,7 @@ Return a JSON with:
 - score (0-100)
 - strengths (list of 3)
 - weaknesses (list of 3)
+- keywords (list of matched keywords from JD that are in resume)
 - missing_keywords (list)
 - improvement_tips (list)
 
